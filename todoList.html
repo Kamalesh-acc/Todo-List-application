@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/ac42c3b1f7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="todoList.css">
+</head>
+
+<body>
+    <div class="container-fluid h-100 out-bg pt-5 pb-5 d-flex flex-row align-items-center">
+        <div class="container ">
+            <div class="row todoList-bg shadow-lg  pl-3 pr-3">
+                <div class="col-12">
+                    <h1 class="text-center head">TODOS</h1>
+                    <h1 class="create mb-3">
+                        Create <span class="create-task">Task:</span>
+                    </h1>
+                    <input type="text" id="taskInput" class="task-input" placeholder="What needs to be done?" />
+                    <button class="btn1" id="addBtn">Add</button>
+                    <div class="row mt-5 mb-5">
+                        <div class="col-6 text-center wrap">
+                            <div class="task-completion-bg  d-inline">
+                                <span class="d-inline">Completed <span class="badge badge-light" id="completedNum">0</span></span>
+                            </div>
+                        </div>
+                        <div class="col-6 text-center ">
+                            <div class="task-completion-bg  d-inline ">
+                                <span class="d-inline">Remaining <span class="badge badge-light" id="remainingNum">0</span></span>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+
+                    <h1 class="task-head mt-5">
+                        My <span class="task-head-dark">Tasks:</span>
+                    </h1>
+                    <ul class="tasks-list" id="taskContainer"></ul>
+                    <div class="text-center mt-4 row pt-5" id="taskImg">
+                        <img class="task-img col-12 col-md-6" src="https://cdn-icons-png.flaticon.com/512/5058/5058432.png">
+                        <div class="d-flex align-items-center col-12 col-md-6 ">
+                            <p class="add-task">Let's Add Some Tasks to Conquer.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script src="todoList.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.out-bg {
+    background: radial-gradient(circle, #60a4ff, #3b70cc);
+    height: 100vh;
+}
+
+.container {
+    display: inline-block;
+    text-align: left;
+    /* Align content inside container to the left */
+
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.todoList-bg {
+    background: radial-gradient(circle, #1c6fd9, #1a64c7, #184fb0, #163b9a, #142b83);
+    height: 100vh;
+    border-radius: 15px;
+    padding: 20px;
+    padding-left: 30px;
+    height: 100%;
+}
+
+.head {
+    text-align: center;
+    font-family: "Roboto";
+    font-size: 46px;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.create {
+    font-family: "Roboto";
+    font-size: 32px;
+    font-weight: 700;
+    color: #f0f0f0;
+
+}
+
+.create-task {
+    font-family: "Roboto";
+    font-size: 32px;
+    font-weight: 500;
+    color: #f0f0f0;
+}
+
+.task-head {
+    margin-top: 20px;
+    font-family: "Roboto";
+    font-size: 32px;
+    font-weight: 700;
+    color: #f0f0f0;
+
+}
+
+.task-head-dark {
+    font-family: "Roboto";
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.task-input {
+    width: 40%;
+}
+
+.add-task {
+    color: white;
+    font-size: 30px;
+    font-style: italic;
+}
+
+.task-container {
+    margin: 0;
+    padding: 0;
+}
+
+.tasks-container {
+    margin: 0;
+    padding: 0;
+}
+
+.task-each-container {
+    margin-top: 15px;
+}
+
+/* CSS for the button */
+.btn1 {
+    background: radial-gradient(circle, #1c6fd9, #1a64c7, #184fb0, #163b9a, #142b83);
+    /* Circular gradient background */
+    color: #ffffff;
+    /* White text color */
+    border: none;
+    /* Remove border */
+    padding: 10px 20px;
+    /* Adjust padding as needed */
+    font-size: 16px;
+    /* Adjust font size as needed */
+    border-radius: 5px;
+    /* Rounded corners */
+    cursor: pointer;
+    /* Change cursor to pointer on hover */
+    transition: background-color 0.3s ease;
+    /* Smooth transition for background color */
+}
+
+.btn1:hover {
+    background: radial-gradient(circle, #2e4a7e, #1a2c4d);
+    /* Different gradient on hover */
+}
+
+.task-completion-bg {
+    background: radial-gradient(circle, #3a5b99, #1f385e);
+    color: white;
+    padding-top: 6px;
+    padding-bottom: 7px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 20px;
+}
+
+
+
+
+
+.label-container {
+
+    width: 100%;
+    background: radial-gradient(circle, #0a3782, #082b6d, #061a4e, #04102c);
+    /* Radial gradient background */
+
+    /* Darker blue gradient background */
+    /* Circular gradient background */
+    color: #ffffff;
+    /* White text color */
+
+    border-radius: 5px;
+    /* Rounded corners */
+
+}
+
+.checkbox-input {
+    width: 20px;
+    height: 20px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-right: 25px;
+
+}
+
+.checkbox-label {
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: 400;
+    width: 82%;
+    margin: 0;
+    padding-top: 16px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+}
+
+.delete-icon-container {
+    text-align: right;
+
+
+}
+
+.delete-icon {
+    padding-left: 25px;
+    padding-top: 24px;
+    cursor: pointer;
+    font-size: 20px;
+    padding-right: 20px;
+    color: #FFCCCC;
+}
+
+.edit-icon {
+    padding-top: 23px;
+    cursor: pointer;
+    font-size: 21px;
+    color: #CCFFCC;
+}
+
+.checked {
+    text-decoration: line-through;
+    /* Only line-through is needed */
+    text-shadow: 0 2px 0 black;
+    color: #F5F5F5;
+    font-weight: lighter;
+}
+
+
+.add-task {
+    font-weight: bold;
+}
+
+.task-img {
+    height: 350px;
+    width: 350px;
+}
